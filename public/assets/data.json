@@ -1,0 +1,236 @@
+[
+  {
+    "id": 1,
+    "img": "assets/png/mediterranean-chickpea-salad.png",
+    "title": "Mediterranean Chickpea Salad",
+    "description": "A refreshing, protein-packed salad tossed in a lemon-olive oil dressing",
+    "servings": 2,
+    "prep": 10,
+    "cook": 0,
+    "ingredients": [
+      "1 can (400 g) chickpeas, drained & rinsed",
+      "1 small cucumber, diced",
+      "1 cup cherry tomatoes,havled",
+      "1/2 red bell pepper, diced",
+      "1/4 red onion, finely chopped",
+      "2 Tbsp fresh parsley, chopped",
+      "2 Tbsp extra-virgin olive oil",
+      "1 Tbsp fresh lemon juice",
+      "Sea salt & black pepper to taste"
+    ],
+    "instructions": [
+      "In a large bowl combine chickpeas, cucumber, tomatoes, bell pepper, red onion and parsley.",
+      "Drizzle with olive oil and lemon juice.",
+      "Season with salt and pepper; toss to coat.",
+      "Serve immediately or chill up to 2 days."
+    ]
+  },
+  {
+    "id": 2,
+    "img": "assets/png/avocado-tomato-wholegrain-toast.png",
+    "title": "Avocado & Tomato Wholegrain Toast",
+    "description": "Creamy avocado spread over toasted wholegrain bread, topped with juicy tomatoes.",
+    "servings": 1,
+    "prep": 5,
+    "cook": 5,
+    "ingredients": [
+      "1 can (400 g) chickpeas, drained & rinsed",
+      "1 small cucumber, diced",
+      "1 cup cherry tomatoes,havled",
+      "1/2 red bell pepper, diced",
+      "1/4 red onion, finely chopped",
+      "2 Tbsp fresh parsley, chopped",
+      "2 Tbsp extra-virgin olive oil",
+      "1 Tbsp fresh lemon juice",
+      "Sea salt & black pepper to taste"
+    ],
+    "instructions": [
+      "In a large bowl combine chickpeas, cucumber, tomatoes, bell pepper, red onion and parsley.",
+      "Drizzle with olive oil and lemon juice.",
+      "Season with salt and pepper; toss to coat.",
+      "Serve immediately or chill up to 2 days."
+    ]
+  },
+  {
+    "id": 3,
+    "img": "assets/png/banana-pancakes.png",
+    "title": "Banana Oat Pancakes",
+    "description": "Flour-free pancakes sweetened naturally with ripe bananas.",
+    "servings": 2,
+    "prep": 5,
+    "cook": 10,
+    "ingredients": [
+      "1 can (400 g) chickpeas, drained & rinsed",
+      "1 small cucumber, diced",
+      "1 cup cherry tomatoes,havled",
+      "1/2 red bell pepper, diced",
+      "1/4 red onion, finely chopped",
+      "2 Tbsp fresh parsley, chopped",
+      "2 Tbsp extra-virgin olive oil",
+      "1 Tbsp fresh lemon juice",
+      "Sea salt & black pepper to taste"
+    ],
+    "instructions": [
+      "In a large bowl combine chickpeas, cucumber, tomatoes, bell pepper, red onion and parsley.",
+      "Drizzle with olive oil and lemon juice.",
+      "Season with salt and pepper; toss to coat.",
+      "Serve immediately or chill up to 2 days."
+    ]
+  },
+  {
+    "id": 4,
+    "img": "assets/png/greek-yoghurt.png",
+    "title": "Greek yoghurt",
+    "description": "Layers of creamy yogurt, fresh berries and crunchy oats for a high-protein snack.",
+    "servings": 2,
+    "prep": 10,
+    "cook": 0,
+    "ingredients": [
+      "1 can (400 g) chickpeas, drained & rinsed",
+      "1 small cucumber, diced",
+      "1 cup cherry tomatoes,havled",
+      "1/2 red bell pepper, diced",
+      "1/4 red onion, finely chopped",
+      "2 Tbsp fresh parsley, chopped",
+      "2 Tbsp extra-virgin olive oil",
+      "1 Tbsp fresh lemon juice",
+      "Sea salt & black pepper to taste"
+    ],
+    "instructions": [
+      "In a large bowl combine chickpeas, cucumber, tomatoes, bell pepper, red onion and parsley.",
+      "Drizzle with olive oil and lemon juice.",
+      "Season with salt and pepper; toss to coat.",
+      "Serve immediately or chill up to 2 days."
+    ]
+  },
+  {
+    "id": 5,
+    "img": "assets/png/quinoa-veggie-bowl.png",
+    "title": "Quinoa Veggie Power Bowl",
+    "description": "A balanced bowl of fluffy quinoa, roasted veggies and healthy fats.",
+    "servings": 2,
+    "prep": 10,
+    "cook": 15,
+    "ingredients": [
+      "1 can (400 g) chickpeas, drained & rinsed",
+      "1 small cucumber, diced",
+      "1 cup cherry tomatoes,havled",
+      "1/2 red bell pepper, diced",
+      "1/4 red onion, finely chopped",
+      "2 Tbsp fresh parsley, chopped",
+      "2 Tbsp extra-virgin olive oil",
+      "1 Tbsp fresh lemon juice",
+      "Sea salt & black pepper to taste"
+    ],
+    "instructions": [
+      "In a large bowl combine chickpeas, cucumber, tomatoes, bell pepper, red onion and parsley.",
+      "Drizzle with olive oil and lemon juice.",
+      "Season with salt and pepper; toss to coat.",
+      "Serve immediately or chill up to 2 days."
+    ]
+  },
+  {
+    "id": 6,
+    "img": "assets/png/lentil-soup.png",
+    "title": "Lentil & Spinach Soup",
+    "description": "A hearty 30-minute soup rich in plant protein and iron.",
+    "servings": 4,
+    "prep": 10,
+    "cook": 20,
+    "ingredients": [
+      "1 can (400 g) chickpeas, drained & rinsed",
+      "1 small cucumber, diced",
+      "1 cup cherry tomatoes,havled",
+      "1/2 red bell pepper, diced",
+      "1/4 red onion, finely chopped",
+      "2 Tbsp fresh parsley, chopped",
+      "2 Tbsp extra-virgin olive oil",
+      "1 Tbsp fresh lemon juice",
+      "Sea salt & black pepper to taste"
+    ],
+    "instructions": [
+      "In a large bowl combine chickpeas, cucumber, tomatoes, bell pepper, red onion and parsley.",
+      "Drizzle with olive oil and lemon juice.",
+      "Season with salt and pepper; toss to coat.",
+      "Serve immediately or chill up to 2 days."
+    ]
+  },
+  {
+    "id": 7,
+    "img": "assets/png/salmon-asparagus.png",
+    "title": "One-Pan Lemon Garlic Salmon with Asparagus",
+    "description": "A 15-minute weeknight dinner of flaky salmon and tender asparagus.",
+    "servings": 2,
+    "prep": 5,
+    "cook": 12,
+    "ingredients": [
+      "1 can (400 g) chickpeas, drained & rinsed",
+      "1 small cucumber, diced",
+      "1 cup cherry tomatoes,havled",
+      "1/2 red bell pepper, diced",
+      "1/4 red onion, finely chopped",
+      "2 Tbsp fresh parsley, chopped",
+      "2 Tbsp extra-virgin olive oil",
+      "1 Tbsp fresh lemon juice",
+      "Sea salt & black pepper to taste"
+    ],
+    "instructions": [
+      "In a large bowl combine chickpeas, cucumber, tomatoes, bell pepper, red onion and parsley.",
+      "Drizzle with olive oil and lemon juice.",
+      "Season with salt and pepper; toss to coat.",
+      "Serve immediately or chill up to 2 days."
+    ]
+  },
+  {
+    "id": 8,
+    "img": "assets/png/spinach.png",
+    "title": "Lentil & Spinach Soup",
+    "description": "A hearty 30-minute soup rich in plant protein and iron.",
+    "servings": 4,
+    "prep": 10,
+    "cook": 20,
+    "ingredients": [
+      "1 can (400 g) chickpeas, drained & rinsed",
+      "1 small cucumber, diced",
+      "1 cup cherry tomatoes,havled",
+      "1/2 red bell pepper, diced",
+      "1/4 red onion, finely chopped",
+      "2 Tbsp fresh parsley, chopped",
+      "2 Tbsp extra-virgin olive oil",
+      "1 Tbsp fresh lemon juice",
+      "Sea salt & black pepper to taste"
+    ],
+    "instructions": [
+      "In a large bowl combine chickpeas, cucumber, tomatoes, bell pepper, red onion and parsley.",
+      "Drizzle with olive oil and lemon juice.",
+      "Season with salt and pepper; toss to coat.",
+      "Serve immediately or chill up to 2 days."
+    ]
+  },
+  {
+    "id": 9,
+    "img": "assets/png/sweet-potato.tacos.png",
+    "title": "Sweet Potato Black Bean Tacos",
+    "description": "Smoky roasted sweet potatoes and black beans tucked into warm tortillas.",
+    "servings": 2,
+    "prep": 5,
+    "cook": 10,
+    "ingredients": [
+      "1 can (400 g) chickpeas, drained & rinsed",
+      "1 small cucumber, diced",
+      "1 cup cherry tomatoes,havled",
+      "1/2 red bell pepper, diced",
+      "1/4 red onion, finely chopped",
+      "2 Tbsp fresh parsley, chopped",
+      "2 Tbsp extra-virgin olive oil",
+      "1 Tbsp fresh lemon juice",
+      "Sea salt & black pepper to taste"
+    ],
+    "instructions": [
+      "In a large bowl combine chickpeas, cucumber, tomatoes, bell pepper, red onion and parsley.",
+      "Drizzle with olive oil and lemon juice.",
+      "Season with salt and pepper; toss to coat.",
+      "Serve immediately or chill up to 2 days."
+    ]
+  }
+]

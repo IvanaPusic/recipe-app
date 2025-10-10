@@ -1,0 +1,55 @@
+@use "../../styles/abstracts/colors" as *;
+@use "../../styles/abstracts/spacings" as *;
+@use "../../styles/abstracts/mixins" as *;
+@use "../../styles/abstracts/fonts" as *;
+@use "../../styles/abstracts/radius" as *;
+
+.banner {
+  padding: 3.063rem $spacing-200 $spacing-800;
+  &__content-title {
+    @include font($fs-52, 110%, -2px, $clr-neutral-900, $ff-nunito, 800);
+    padding-bottom: $spacing-200;
+  }
+  &__content-title-bg {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 0.1em;
+  }
+  &__content-title-bg::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0.1em;
+    height: 25%;
+    background: rgba(254, 159, 107, 0.4);
+    border-radius: 4px;
+    pointer-events: none;
+    z-index: -1;
+  }
+  &__content-text {
+    @include font($fs-20, 150%, -0.4px, $clr-neutral-600, $ff-nunito, 500);
+    padding-bottom: $spacing-400;
+  }
+  &__content-btn {
+    @include button-reset;
+    @include button(
+      $neutral-0,
+      $clr-neutral-900,
+      $radius-10,
+      none,
+      $spacing-200 $spacing-400
+    );
+    @include font($fs-20, 140%, -0.5px, $neutral-0, $ff-nunito, 700);
+  }
+
+  &__img-container {
+    background-image: url("../../../public/assets/png/healthy-meals.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    aspect-ratio: 16 / 9;
+    margin-top: $spacing-500;
+    border-radius: 0.443rem;
+  }
+}

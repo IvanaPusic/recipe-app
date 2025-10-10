@@ -1,0 +1,42 @@
+@use "../../styles/abstracts/colors" as *;
+@use "../../styles/abstracts/spacings" as *;
+@use "../../styles/abstracts/mixins" as *;
+@use "../../styles/abstracts/fonts" as *;
+@use "../../styles/abstracts/radius" as *;
+
+.modal {
+  position: fixed;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: $neutral-0;
+  z-index: 100;
+  width: 75%;
+  border-radius: $radius-8;
+  padding: $spacing-100;
+
+  &__list {
+    &-item {
+      padding: $spacing-150 0 $spacing-150 $spacing-100;
+      a {
+        text-decoration: none;
+        @include font($fs-18, 150%, -0.3px, #293241, $ff-nunito, 600);
+      }
+    }
+  }
+
+  &__link {
+    display: block;
+    @include button-reset;
+    text-decoration: none;
+    @include button(
+      $neutral-0,
+      $clr-neutral-900,
+      $radius-10,
+      none,
+      $spacing-200 $spacing-400
+    );
+    text-align: center;
+    @include font($fs-20, 140%, -0.5px, $neutral-0, $ff-nunito, 700);
+  }
+}

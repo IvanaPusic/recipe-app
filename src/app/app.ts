@@ -1,12 +1,16 @@
-import { Component, signal } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { Navigation } from './navigation/navigation';
+import { Footer } from './footer/footer';
+import { Modal } from './modal/modal';
+import { Menu } from './menu';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, Navigation, Footer, Modal],
   templateUrl: './app.html',
-  styleUrl: './app.scss'
+  styleUrl: './app.scss',
 })
 export class App {
-  protected readonly title = signal('recipe-app');
+  menuService = inject(Menu);
 }

@@ -1,0 +1,29 @@
+@use "../../styles/abstracts/colors" as *;
+@use "../../styles/abstracts/spacings" as *;
+@use "../../styles/abstracts/mixins" as *;
+@use "../../styles/abstracts/fonts" as *;
+@use "../../styles/abstracts/radius" as *;
+
+.header {
+  @include flex-between($spacing-0);
+  padding: $spacing-250 $spacing-200;
+  border: 1px solid $clr-neutral-300;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: $neutral-100;
+  &__list,
+  &__browse-btn {
+    display: none;
+  }
+  &__menu-btn {
+    @include button-reset;
+    @include button(
+      transparent,
+      $clr-neutral-300,
+      $radius-4,
+      none,
+      $spacing-150 0.688rem
+    );
+  }
+}

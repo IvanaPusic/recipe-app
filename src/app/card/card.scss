@@ -1,0 +1,29 @@
+@use "../../styles/abstracts/colors" as *;
+@use "../../styles/abstracts/spacings" as *;
+@use "../../styles/abstracts/mixins" as *;
+@use "../../styles/abstracts/fonts" as *;
+@use "../../styles/abstracts/radius" as *;
+
+.card {
+  padding-bottom: $spacing-300;
+  ::ng-deep .img-container {
+    background-color: $neutral-0;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    padding: 0.25rem 0.5rem;
+    border-radius: $radius-12;
+    border: 3px solid $neutral-200;
+    @include flex-center(0);
+    margin-bottom: $spacing-250;
+  }
+
+  ::ng-deep .title {
+    @include font($fs-32, 130%, -1px, $clr-neutral-900, $ff-nunito, 700);
+    margin-bottom: $spacing-150;
+  }
+
+  ::ng-deep .text {
+    @include font($fs-20, 150%, -0.4px, $clr-neutral-600, $ff-nunito, 500);
+  }
+}

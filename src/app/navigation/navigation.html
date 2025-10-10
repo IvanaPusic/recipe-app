@@ -1,0 +1,18 @@
+<header class="header">
+  <img src="assets/svg/logo.svg" alt="" class="header__logo" />
+  <ul class="header__list">
+    <li class="header__list-item">
+      <a routerLink="/">Home</a>
+    </li>
+    <li class="header__list-item">
+      <a routerLink="/about">About</a>
+    </li>
+    <li class="header__list-item">
+      <a routerLink="/recipes">Recipes</a>
+    </li>
+  </ul>
+  <button class="header__browse-btn">Browse recipes</button>
+  <button class="header__menu-btn" (click)="modalService.toggleModal()">
+    <img src="assets/svg/menu.svg" alt="" />
+  </button>
+</header>

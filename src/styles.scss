@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@use "./styles/base/index";
+@use "./styles/abstracts";
+
+body {
+  background-color: #f6f5f1;
+  font-family: "Nunito", sans-serif;
+  position: relative;
+}

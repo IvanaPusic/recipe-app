@@ -1,0 +1,15 @@
+@use "../../styles/abstracts/colors" as *;
+@use "../../styles/abstracts/spacings" as *;
+@use "../../styles/abstracts/mixins" as *;
+@use "../../styles/abstracts/fonts" as *;
+@use "../../styles/abstracts/radius" as *;
+
+.footer {
+  @include flex-col($spacing-300);
+  padding: $spacing-400 $spacing-200 $spacing-250;
+  justify-content: center;
+  align-items: center;
+  &__list {
+    @include flex-center($spacing-300);
+  }
+}

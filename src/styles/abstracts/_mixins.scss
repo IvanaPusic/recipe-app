@@ -1,0 +1,112 @@
+@use "./colors" as *;
+@use "./fonts" as *;
+@use "./spacings" as *;
+@use "./radius" as *;
+
+@mixin flex-center($gap) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: $gap;
+}
+
+@mixin flex-between($gap) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: $gap;
+}
+
+@mixin flex-start($gap) {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: $gap;
+}
+
+@mixin flex-around($gap) {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: $gap;
+}
+
+@mixin flex-evenly($gap) {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: $gap;
+}
+
+@mixin flex-col($gap) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: $gap;
+}
+
+@mixin font(
+  $size,
+  $lineHeight,
+  $letterSpacing,
+  $color: $clr-grey-900,
+  $ff,
+  $fw: 400
+) {
+  font-size: $size;
+  line-height: $lineHeight;
+  letter-spacing: $letterSpacing;
+  color: $color;
+  font-family: $ff;
+  font-weight: $fw;
+}
+
+@mixin button($color, $bg, $radius, $border, $padding) {
+  color: $color;
+  background-color: $bg;
+  border-radius: $radius;
+  border: $border;
+  padding: $padding;
+}
+
+@mixin button-reset {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@mixin btn-dark {
+  @include button-reset;
+  @include button(
+    $neutral-0,
+    $clr-neutral-900,
+    $radius-10,
+    none,
+    $spacing-200 $spacing-400
+  );
+  @include font($fs-20, 140%, -0.5px, $neutral-0, $ff-nunito, 700);
+}
+
+@mixin breakpoint($point) {
+  @if $point == medium {
+    @media (min-width: 768px) and (max-width: 1200px) {
+      @content;
+    }
+  } @else if $point == big {
+    @media (min-width: 1201px) {
+      @content;
+    }
+  }
+}
+
+@mixin border-color($name) {
+  @for $i from 1 through length($pot-border-colors) {
+    $color: map-get($pot-border-colors, $i);
+
+    #{$name}:nth-child(#{$i}) {
+      border-left: 5px solid #{$color};
+    }
+  }
+}

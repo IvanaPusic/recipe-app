@@ -1,0 +1,40 @@
+@use "../../styles/abstracts/colors" as *;
+@use "../../styles/abstracts/spacings" as *;
+@use "../../styles/abstracts/mixins" as *;
+@use "../../styles/abstracts/fonts" as *;
+@use "../../styles/abstracts/radius" as *;
+
+.call-to-action {
+  padding-inline: $spacing-200;
+
+  &__card {
+    background-color: $neutral-200;
+    padding: $spacing-1000 $spacing-200;
+    @include flex-center($spacing-150);
+    flex-direction: column;
+    border-radius: $radius-16;
+
+    &-title {
+      @include font($fs-40, 120%, -2px, $clr-neutral-900, $ff-nunito, 800);
+      text-align: center;
+    }
+
+    &-text {
+      @include font($fs-20, 150%, -0.4px, $clr-neutral-600, $ff-nunito, 500);
+      text-align: center;
+    }
+
+    &-btn {
+      @include button-reset;
+      @include button(
+        $neutral-0,
+        $clr-neutral-900,
+        $radius-10,
+        none,
+        $spacing-200 $spacing-400
+      );
+      text-decoration: none;
+      @include font($fs-20, 140%, -0.5px, $neutral-0, $ff-nunito, 700);
+    }
+  }
+}

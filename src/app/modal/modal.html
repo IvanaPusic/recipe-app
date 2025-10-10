@@ -1,0 +1,19 @@
+<div class="modal">
+  <ul class="modal__list">
+    <li class="modal__list-item">
+      <a routerLink="/" (click)="menuService.closeModal()">Home</a>
+    </li>
+    <li class="modal__list-item">
+      <a routerLink="/about" (click)="menuService.closeModal()">About</a>
+    </li>
+    <li class="modal__list-item">
+      <a routerLink="/recipes" (click)="menuService.closeModal()">Recipes</a>
+    </li>
+  </ul>
+  <a
+    routerLink="/recipes"
+    class="modal__link"
+    (click)="menuService.closeModal()"
+    >Browse recipes</a
+  >
+</div>

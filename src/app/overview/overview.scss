@@ -1,0 +1,29 @@
+@use "../../styles/abstracts/colors" as *;
+@use "../../styles/abstracts/spacings" as *;
+@use "../../styles/abstracts/mixins" as *;
+@use "../../styles/abstracts/fonts" as *;
+@use "../../styles/abstracts/radius" as *;
+
+.overview {
+  padding: $spacing-800 $spacing-200;
+  &__container {
+    &-title {
+      @include font($fs-40, 120%, -2px, $clr-neutral-900, $ff-nunito, 800);
+      padding-bottom: 1.25rem;
+    }
+
+    &-text {
+      @include font($fs-20, 150%, -0.4px, $clr-neutral-600, $ff-nunito, 500);
+      padding-bottom: 1.25rem;
+    }
+  }
+  &__img-container {
+    background-image: url("../../../public/assets/png/spinach.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    aspect-ratio: 16 / 9;
+    margin-top: $spacing-500;
+    border-radius: 0.443rem;
+  }
+}
