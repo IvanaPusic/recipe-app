@@ -1,0 +1,17 @@
+@use "../../styles/abstracts/colors" as *;
+@use "../../styles/abstracts/spacings" as *;
+@use "../../styles/abstracts/mixins" as *;
+@use "../../styles/abstracts/fonts" as *;
+@use "../../styles/abstracts/radius" as *;
+
+.recipe-hero {
+  padding: $spacing-600 $spacing-200;
+  &__title {
+    @include font($fs-40, 120%, -2px, $clr-neutral-900, $ff-nunito, 800);
+  }
+
+  &__info {
+    padding-top: $spacing-150;
+    @include font($fs-20, 150%, -0.4px, $clr-neutral-600, 500);
+  }
+}

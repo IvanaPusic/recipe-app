@@ -1,0 +1,36 @@
+@use "../../styles/abstracts/colors" as *;
+@use "../../styles/abstracts/spacings" as *;
+@use "../../styles/abstracts/mixins" as *;
+@use "../../styles/abstracts/fonts" as *;
+@use "../../styles/abstracts/radius" as *;
+
+.about-hero {
+  padding: $spacing-600 $spacing-200 $spacing-800;
+
+  &__content {
+    &-label {
+      padding: $spacing-025 $spacing-075;
+      border-radius: $spacing-075;
+      background-color: $orange;
+      @include font($fs-20, 140%, -0.5px, $clr-neutral-900, $ff-nunito, 700);
+    }
+    &-title {
+      @include font($fs-40, 120%, -2px, $clr-neutral-900, $ff-nunito, 800);
+      padding: $spacing-300 0;
+    }
+    &-info {
+      @include font($fs-20, 150%, -0.4px, $clr-neutral-600, $ff-nunito, 500);
+      padding-bottom: $spacing-200;
+    }
+  }
+
+  &__banner {
+    background-image: url("../../../public/assets/png/our-mission.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    aspect-ratio: 1 / 1;
+    margin-top: $spacing-500;
+    border-radius: 0.443rem;
+  }
+}

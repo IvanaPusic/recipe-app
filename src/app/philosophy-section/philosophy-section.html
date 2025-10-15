@@ -1,0 +1,14 @@
+<section class="philosophy-section">
+  <h2 class="philosophy-section__title">Our food philosophy</h2>
+  <ul class="philosophy-section__list">
+    @for(item of food; track item.id){
+    <li class="philosophy-section__list-item">
+      <img src="assets/svg/arrow-right.svg" alt="" />
+      <div class="philosophy-section__content">
+        <h3 class="philosophy-section__content-title">{{ item.title }}</h3>
+        <p class="philosophy-section__content-info">{{ item.text }}</p>
+      </div>
+    </li>
+    }
+  </ul>
+</section>

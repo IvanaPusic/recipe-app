@@ -1,0 +1,31 @@
+@use "../../styles/abstracts/colors" as *;
+@use "../../styles/abstracts/spacings" as *;
+@use "../../styles/abstracts/mixins" as *;
+@use "../../styles/abstracts/fonts" as *;
+@use "../../styles/abstracts/radius" as *;
+
+.purpose-section {
+  padding: $spacing-600 $spacing-200;
+  &__title {
+    @include font($fs-40, 120%, -2px, $clr-neutral-900, $ff-nunito, 800);
+    padding-bottom: $spacing-500;
+  }
+  &__list {
+    @include flex-col($spacing-300);
+  }
+  &__list-item {
+    @include flex-evenly($spacing-250);
+    align-items: flex-start;
+  }
+
+  &__content {
+    &-title {
+      @include font($fs-24, 0, normal, $clr-neutral-900, $ff-nunito, 600);
+      padding-bottom: $spacing-150;
+    }
+
+    &-info {
+      @include font($fs-20, 150%, -0.4px, $clr-neutral-600, $ff-nunito, 500);
+    }
+  }
+}

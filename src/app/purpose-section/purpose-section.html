@@ -1,0 +1,14 @@
+<section class="purpose-section" aria-labelledby="purpose-title">
+  <h2 id="purpose-title" class="purpose-section__title">Why we exist</h2>
+  <ul class="purpose-section__list">
+    @for(item of purposeVar; track item.id) {
+    <li class="purpose-section__list-item">
+      <img src="assets/svg/arrow-right.svg" alt="" aria-hidden="true" />
+      <div class="purpose-section__content">
+        <h3 class="purpose-section__content-title">{{ item.title }}</h3>
+        <p class="purpose-section__content-info">{{ item.info }}</p>
+      </div>
+    </li>
+    }
+  </ul>
+</section>

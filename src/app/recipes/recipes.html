@@ -1,1 +1,10 @@
-<p>recipes works!</p>
+<app-recipe-hero />
+<ul>
+  @for(recipe of recipes; track recipe.id){
+  <li>
+    <img [src]="recipe.img" alt="" />
+    <h2>{{ recipe.title }}</h2>
+    <p>{{ recipe.description }}</p>
+  </li>
+  }
+</ul>

@@ -1,0 +1,37 @@
+@use "../../styles/abstracts/colors" as *;
+@use "../../styles/abstracts/spacings" as *;
+@use "../../styles/abstracts/mixins" as *;
+@use "../../styles/abstracts/fonts" as *;
+@use "../../styles/abstracts/radius" as *;
+
+.plate-section {
+  padding: $spacing-600 $spacing-200;
+
+  &__title {
+    @include font($fs-40, 120%, -2px, $clr-neutral-900, $ff-nunito, 800);
+    padding-bottom: $spacing-250;
+  }
+
+  &__text {
+    @include font($fs-20, 150%, -0.4px, $clr-neutral-600, $ff-nunito, 500);
+    padding-bottom: $spacing-150;
+  }
+
+  &__list {
+    list-style-type: disc;
+    padding-left: $spacing-200;
+    &-item {
+      @include font($fs-20, 150%, -0.4px, $clr-neutral-600, $ff-nunito, 500);
+    }
+  }
+
+  &__banner {
+    background-image: url("../../../public/assets/png/plate.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    aspect-ratio: 16 / 9;
+    margin-top: $spacing-500;
+    border-radius: 0.443rem;
+  }
+}

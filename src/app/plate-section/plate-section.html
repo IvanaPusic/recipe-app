@@ -1,0 +1,13 @@
+<section class="plate-section">
+  <h2 class="plate-section__title">Beyond the plate</h2>
+  <p class="plate-section__text">
+    We believe food is a catalyst for community and well-being. By sharing
+    approachable recipes, we hope to:
+  </p>
+  <ul class="plate-section__list">
+    @for(item of plates; track item.id ){
+    <li class="plate-section__list-item">{{ item.text }}</li>
+    }
+  </ul>
+  <div class="plate-section__banner"></div>
+</section>
